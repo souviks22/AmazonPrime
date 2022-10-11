@@ -1,0 +1,10 @@
+.dropdown__button {
+    padding-inline: .7em;
+    font-size: .8em;
+    color: #697e97;
+    transition: .2s ease-in;
+}
+
+.rotate__button {
+    transform: rotate(.5turn);
+}

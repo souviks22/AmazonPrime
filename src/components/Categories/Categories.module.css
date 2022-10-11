@@ -1,0 +1,27 @@
+.categories {
+    width: 100%;
+    height: 22rem;
+    color: white;
+    background: linear-gradient(to right, #172638, #131f2d, #101b27);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    position: absolute;
+    top: 90%;
+}
+
+.categories h6 {
+    font-weight: bold;
+    cursor: default;
+    margin-bottom: .7rem;
+}
+
+.divider {
+    width: 2px;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.additional {
+    display: flex;
+}

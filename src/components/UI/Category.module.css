@@ -1,0 +1,24 @@
+.category {
+    width: 30%;
+    height: 5.5rem;
+    background: linear-gradient(45deg, #294a64, #41759d), linear-gradient(135deg, #2c4f69, #41759d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.category:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.category p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: .95rem;
+}

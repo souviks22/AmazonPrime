@@ -1,0 +1,32 @@
+.placeholder {
+    height: 28rem;
+    overflow-y: scroll;
+    position: absolute;
+    top: 75%;
+    right: 12%;
+    border-radius: 5px;
+    background-color: #2a3441;
+    box-shadow: 0 0 5px 5px #00000044;
+}
+
+.web__lang {
+    width: 45rem;
+    height: 35rem;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.lang {
+    width: 15rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-right: .5px solid #171616;
+    cursor: pointer;
+}
+
+.lang:hover {
+    background-color: #6f7d8e;
+}

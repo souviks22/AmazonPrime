@@ -1,0 +1,43 @@
+.auth__status {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    right: 2.5%;
+    color: #babfc7;
+    background-color: #2a3441;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #00000044;
+}
+
+.left__col,
+.right__col {
+    padding: .5rem;
+    width: 12.5rem;
+}
+
+.right__col {
+    border-left: .5px solid #626365ad;
+    font-weight: bold;
+}
+
+.tab {
+    padding: .5rem 1rem;
+}
+
+.icon__tab {
+    display: flex;
+    align-items: center;
+    padding-inline: .5rem;
+}
+
+.tab__icon {
+    width: 3rem;
+}
+
+.tab:hover,
+.icon__tab:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}

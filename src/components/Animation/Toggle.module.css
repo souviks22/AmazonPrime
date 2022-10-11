@@ -1,0 +1,51 @@
+.bar__entering {
+    animation: searchBar .1s ease-in;
+}
+
+.icon__entering {
+    animation: searchIcon .1s ease-out;
+}
+
+@keyframes searchBar {
+    0% {
+        width: 1rem;
+    }
+
+    25% {
+        width: 5rem;
+    }
+
+    50% {
+        width: 9rem;
+    }
+
+    75% {
+        width: 13rem;
+    }
+
+    100% {
+        width: 17rem;
+    }
+}
+
+@keyframes searchIcon {
+    10% {
+        width: 17rem;
+    }
+
+    25% {
+        width: 13rem;
+    }
+
+    50% {
+        width: 9rem;
+    }
+
+    75% {
+        width: 5rem;
+    }
+
+    100% {
+        width: 2rem;
+    }
+}

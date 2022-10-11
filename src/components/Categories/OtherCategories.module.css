@@ -1,0 +1,21 @@
+.other__categories {
+    width: 15rem;
+}
+
+.others__list {
+    display: flex;
+    flex-direction: column;
+    color: #8b94a1;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+
+.catg {
+    margin-bottom: .6rem;
+}
+
+.catg:hover {
+    color: white;
+    cursor: pointer;
+}

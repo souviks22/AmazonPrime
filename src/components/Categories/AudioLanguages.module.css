@@ -1,0 +1,23 @@
+.audio__languages {
+    width: 15rem;
+}
+
+.language__list {
+    height: 10rem;
+    display: flex;
+    flex-flow: column wrap;
+    color: #8b94a1;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+
+.lang {
+    margin-bottom: .6rem;
+    margin-right: 1rem;
+}
+
+.lang:hover {
+    color: white;
+    cursor: pointer;
+}

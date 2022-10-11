@@ -1,0 +1,14 @@
+.navbar {
+    height: 5rem;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(to right, #181e28, #212a37, #1b232e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__left,
+.navbar__right {
+    display: flex;
+    align-items: center;
+}

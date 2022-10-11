@@ -1,0 +1,13 @@
+.navbar__dropdown {
+    padding: 1.5rem .5rem;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__dropdown:hover {
+    cursor: pointer;
+    color: white;
+}

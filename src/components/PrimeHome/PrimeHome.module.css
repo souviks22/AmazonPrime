@@ -1,0 +1,11 @@
+.prime__home {
+    margin: 0;
+    padding: 0;
+}
+
+.spinner__box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

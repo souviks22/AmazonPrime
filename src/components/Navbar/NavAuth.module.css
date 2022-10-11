@@ -1,0 +1,20 @@
+.navbar__auth {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__auth img {
+    width: 2.5rem;
+    margin-inline: .5em;
+}
+
+.navbar__auth span {
+    color: #c6c6db;
+    font-weight: bold;
+}
+
+.navbar__auth p:hover {
+    color: whitesmoke;
+}

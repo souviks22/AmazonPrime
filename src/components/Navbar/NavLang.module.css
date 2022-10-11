@@ -1,0 +1,25 @@
+.navbar__lang {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 1em;
+}
+
+.navbar__lang:hover {
+    cursor: pointer;
+}
+
+.navbar__lang p {
+    margin: 0;
+    color: #c6c6db;
+    font-weight: bold;
+}
+
+.navbar__lang p:hover {
+    color: whitesmoke;
+}
+
+.globe__icon {
+    margin-inline: .4em;
+    font-size: 1.3em;
+}

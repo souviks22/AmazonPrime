@@ -1,0 +1,9 @@
+.top__categories {
+    width: 33rem;
+}
+
+.category__list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem auto;
+}

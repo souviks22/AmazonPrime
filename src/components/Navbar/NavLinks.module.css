@@ -1,0 +1,16 @@
+.navlinks {
+    margin-inline: 1rem;
+    padding-bottom: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navlink {
+    padding: .5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navlink:hover {
+    color: whitesmoke;
+}

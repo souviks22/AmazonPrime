@@ -1,0 +1,34 @@
+.background {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+}
+
+.background__reverse {
+    justify-content: flex-start;
+}
+
+.img {
+    width: 55rem;
+}
+
+.image__container {
+    width: 47.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__container img {
+    padding: 1rem;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #050505 43%, transparent, transparent, transparent);
+    position: absolute;
+    z-index: 1;
+}
