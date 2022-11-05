@@ -6,6 +6,7 @@ const useApp = () => {
     const isCategoryDropped = useSelector(state => state.nav.isCategoryDropped)
     const isWebLangDropped = useSelector(state => state.nav.isWebLangDropped)
     const isAuthStatusDropped = useSelector(state => state.nav.isAuthStatusDropped)
+    const isBackdropActive = useSelector(state => state.nav.isBackdropActive)
     const dispatch = useDispatch()
 
     return () => {
@@ -21,6 +22,9 @@ const useApp = () => {
         }
         if (isAuthStatusDropped) {
             dispatch(navActions.liftAuthStatus())
+        }
+        if (isBackdropActive) {
+            dispatch(navActions.deactivateBackdrop())
         }
     }
 }

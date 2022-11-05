@@ -17,7 +17,8 @@ const AuthStatus = () => {
     ]
     const rightColumn = authStuff.slice(7, 9)
 
-    return (<div className={styles.auth__status}>
+    return (<div className={styles.auth__status}
+        onClick={event => { event.stopPropagation() }}>
         <section className={styles.left__col}>
             {leftColumn.map(tab => <div key={tab} className={styles.tab}>{tab}</div>)}
             <div className={styles.tab}>Not Souvik? {leftBottom}</div>

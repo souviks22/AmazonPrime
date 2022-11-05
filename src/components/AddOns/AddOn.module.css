@@ -1,0 +1,15 @@
+.addon {
+    width: 13rem;
+    height: 9rem;
+    background: linear-gradient(to left, #052e5d 30%, #477ca5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .2rem;
+    padding-inline: 1.5rem;
+}
+
+.addon:hover {
+    cursor: pointer;
+    box-shadow: 0 0 3px 3px #0000006a;
+}

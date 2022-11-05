@@ -15,14 +15,16 @@
 }
 
 .image__container {
-    width: 47.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 45%;
 }
 
 .image__container img {
     padding: 1rem;
+}
+
+.shaded__container {
+    width: 50%;
+    padding-inline: 5rem;
 }
 
 .overlay {

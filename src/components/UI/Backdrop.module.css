@@ -1,7 +1,8 @@
 .backdrop {
     width: 100%;
-    height: 100%;
-    background-color: #05050590;
+    height: 100vh;
+    background-color: #05050570;
     position: fixed;
+    z-index: 10;
     top: 0;
 }

@@ -2,13 +2,27 @@
     width: 100%;
     color: white;
     margin: 0;
+    background-color: #050505;
 }
 
 .gist__reverse {
-    background-color: #050505;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: #050505;
+}
+
+.gist__shade {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(60deg, #050505, #363535);
+}
+
+.gist__reverse__shade {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(60deg, #363535, #050505);
 }
 
 .tagline {

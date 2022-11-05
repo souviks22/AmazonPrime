@@ -9,15 +9,16 @@ import styles from './NavAuth.module.css'
 const NavAuth = () => {
     const isAuthStatusDropped = useSelector(state => state.nav.isAuthStatusDropped)
     const dispatch = useDispatch()
-    const dropAuthStatusHandler = () => {
+    const authClickHandler = () => {
         dispatch(navActions.dropAuthStatus())
+        dispatch(navActions.activateBackdrop())
     }
     const [authStatus] = useGet('authStatus')
     useEffect(() => {
         dispatch(boxActions.fetchAuthStatus(authStatus))
     }, [authStatus, dispatch])
 
-    return (<div className={styles.navbar__auth} onClick={dropAuthStatusHandler}>
+    return (<div className={styles.navbar__auth} onClick={authClickHandler}>
         <img className='img-fluid' src="/images/user.png" alt="user.png" />
         <span style={{ color: isAuthStatusDropped && 'whitesmoke' }}>Souvik</span>
         <DropDownButton rotate={isAuthStatusDropped ? true : false} />

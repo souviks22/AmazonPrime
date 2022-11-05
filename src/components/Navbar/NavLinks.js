@@ -4,7 +4,7 @@ import styles from './NavLinks.module.css'
 
 const NavLinks = () => {
     return (<div className={styles.navlinks}>
-        <NavLink className={styles.navlink} to='/home'>Home</NavLink>
+        <NavLink className={styles.navlink} to='/'>Home</NavLink>
         <NavLink className={styles.navlink} to='/store'>Store</NavLink>
         <NavLink className={styles.navlink} to='/channels'>Channels</NavLink>
         <NavDrop />

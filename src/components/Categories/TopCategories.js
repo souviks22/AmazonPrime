@@ -1,4 +1,4 @@
-import Category from '../UI/Category'
+import Category from './Category'
 import { useSelector } from 'react-redux'
 import styles from './TopCategories.module.css'
 

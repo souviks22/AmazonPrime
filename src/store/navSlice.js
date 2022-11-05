@@ -7,7 +7,8 @@ const navSlice = createSlice({
         isCategoryDropped: false,
         isCategoryHolded: false,
         isWebLangDropped: false,
-        isAuthStatusDropped: false
+        isAuthStatusDropped: false,
+        isBackdropActive: false
     },
     reducers: {
         expandSearchBar(state) {
@@ -39,6 +40,12 @@ const navSlice = createSlice({
         },
         liftAuthStatus(state) {
             state.isAuthStatusDropped = false
+        },
+        activateBackdrop(state) {
+            state.isBackdropActive = true
+        },
+        deactivateBackdrop(state) {
+            state.isBackdropActive = false
         }
     }
 })

@@ -1,0 +1,25 @@
+.addons {
+    margin: 0;
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.spinner__box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    padding: 2rem 5rem;
+}
+
+.tagline p {
+    margin-bottom: 2rem;
+}
+
+.tabs {
+    display: flex;
+    flex-flow: wrap;
+}
