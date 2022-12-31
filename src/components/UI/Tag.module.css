@@ -1,0 +1,9 @@
+.tag {
+    position: absolute;
+    z-index: 1;
+    width: 3rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 2px solid #0f1319;
+    border-bottom: 2px solid #0f1319;
+}

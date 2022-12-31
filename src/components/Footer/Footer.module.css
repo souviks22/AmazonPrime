@@ -1,9 +1,16 @@
+.footer__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding: 2rem;
     background-color: #272626;
+    width: 100%;
 }
 
 .footer img {

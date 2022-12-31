@@ -6,17 +6,16 @@ const Background = (props) => {
             ? <div className={props.shade ? styles.shaded__container : styles.image__container}>
                 <img
                     className={`img-fluid`}
-                    src={`images/${props.image.url}`}
+                    src={`images/${props.image.url}.png`}
                     alt={props.id}
                 />
             </div>
             : <img
                 className={`img-fluid ${styles.img}`}
-                src={`images/${props.image.url}`}
+                src={`images/${props.image.url}.png`}
                 alt={props.id}
             />
         }
-
         {!props.reverse && !props.shade && <div className={styles.overlay}></div>}
     </div>)
 }

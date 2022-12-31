@@ -1,0 +1,19 @@
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    cursor: pointer;
+    width: 100%;
+}
+
+.slides img {
+    display: block;
+    width: 100%;
+}
+
+.controls button {
+    width: 3rem;
+}

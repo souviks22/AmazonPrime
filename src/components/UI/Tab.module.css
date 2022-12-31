@@ -1,0 +1,12 @@
+.tab {
+    width: 17rem;
+    margin: .25rem;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tab img {
+    border-top-left-radius: 20px;
+}

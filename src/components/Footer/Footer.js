@@ -6,15 +6,18 @@ const Footer = () => {
     const [footer, isLoading] = useGet('footer')
     const { img, links, copyright } = footer
 
-    return (isLoading ? <LoadingSpinner />
-        : links != null &&
-        <div className={styles.footer}>
-            <img src={`/images/${img}`} alt={footer.img} />
-            <section className={styles.links}>
-                {links.map(link => <a key={link} href='/'>{link}</a>)}
-            </section>
-            <p>{copyright}</p>
-        </div>
+    return (<div className={styles.footer__box}>
+        {isLoading ? <LoadingSpinner />
+            : links != null &&
+            <div className={styles.footer}>
+                <img src={`/images/${img}.png`} alt={footer.img} />
+                <section className={styles.links}>
+                    {links.map(link => <a key={link} href='/'>{link}</a>)}
+                </section>
+                <p>{copyright}</p>
+            </div>
+        }
+    </div >
     )
 }
 

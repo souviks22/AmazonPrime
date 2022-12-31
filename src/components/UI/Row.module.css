@@ -1,0 +1,33 @@
+.row {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: .3rem;
+}
+
+.title p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.title span {
+    color: #509cd6;
+    font-size: .7rem;
+    margin-inline: .5rem;
+}
+
+.title span:hover {
+    color: #7dbdee;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    flex-flow: wrap;
+}
